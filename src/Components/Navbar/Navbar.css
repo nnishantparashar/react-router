@@ -1,0 +1,20 @@
+.nav-container {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem;
+    background-color: white;
+    
+    font-weight: bold;
+}
+
+.nav-item {
+    color: #454545;
+}
+
+.nav-item :hover,
+.active{
+      color: green;
+      background-color: #f5faf6;
+}
